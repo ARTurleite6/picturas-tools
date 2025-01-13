@@ -1,8 +1,8 @@
 import logging
 
 from .config import PICTURAS_LOG_LEVEL, PICTURAS_WATERMARK_IMAGE_PATH
-from .core.message_processor import MessageProcessor
-from .core.message_queue_setup import message_queue_connect
+from picturas_shared_ms.core.message_processor import MessageProcessor
+from picturas_shared_ms.core.message_queue_setup import message_queue_connect
 from .watermark_request_message import WatermarkRequestMessage
 from .watermark_result_message import WatermarkResultMessage
 from .watermark_tool import WatermarkTool

@@ -1,6 +1,6 @@
 from pydantic import BaseModel
 
-from .core.messages.request_message import RequestMessage
+from picturas_shared_ms.core.messages.request_message import RequestMessage
 
 
 class WatermarkParameters(BaseModel):

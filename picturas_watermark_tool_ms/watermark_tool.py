@@ -1,8 +1,9 @@
 import random
+import urllib.parse
 
 from PIL import Image, ImageEnhance
 
-from .core.tool import Tool
+from picturas_shared_ms.core.tool import Tool
 from .watermark_request_message import WatermarkParameters
 
 

@@ -2,7 +2,7 @@ from typing import Any
 
 from pydantic import BaseModel
 
-from .core.messages.result_message import ResultMessage
+from picturas_shared_ms.core.messages.result_message import ResultMessage
 from .watermark_request_message import WatermarkRequestMessage
 
 
