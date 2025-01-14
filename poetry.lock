@@ -20,11 +20,13 @@ optional = false
 python-versions = ">=3.11"
 groups = ["main"]
 files = []
-develop = true
+develop = false
 
 [package.source]
-type = "directory"
-url = "../picturas-shared-ms"
+type = "git"
+url = "https://github.com/ARTurleite6/picturas-shared-ms.git"
+reference = "HEAD"
+resolved_reference = "0af086becad7a82828380aba55ea595bb85d996d"
 
 [[package]]
 name = "pika"
@@ -317,4 +319,4 @@ platformdirs = ">=3.5.1"
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.13"
-content-hash = "06f8f713c9a33e49ee712436b47dca6c36e93a25deee511ee4881779ad4afda5"
+content-hash = "828a9558f47778a27cb8d34602dbcd52c714ef81b7daa9860ef342755719631c"
